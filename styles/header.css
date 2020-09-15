@@ -1,0 +1,37 @@
+header {
+    background-color: #232f3e;
+    padding:5px;
+    display: flex;
+    align-items: center;
+    min-width: 1450px;
+}
+#header-deliver-box {
+    display: flex;
+    color: white;
+    padding-left: 10px;
+    margin-right: 40px;
+}
+#header-deliver-left {
+    font-size: 20px;
+}
+#header-deliver-right {
+    padding-left: 8px;
+}
+#header-deliver-top {
+    font-size: 12px;
+}
+#header-deliver-bottom {
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    bottom: 3px;
+}
+#header-list {
+    list-style: none;
+    width: 89%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    font-size: 13px;
+}
