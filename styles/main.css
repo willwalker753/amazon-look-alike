@@ -143,7 +143,7 @@ main {
     align-self: center;
     font-size: 13px;
 }
-#main-recent-box > a, #main-echo-box > a {
+#main-recent-box > a, #main-echo-box > a, #main-free-ship > a {
     margin-left: 20px;
     padding-bottom: 10px;
     font-size: 12px;
@@ -169,14 +169,76 @@ main {
 #main-echo-box > a {
     margin-left: 0px;
 }
-
 #main-ship-and-ad {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 380px;
+}
+#main-free-ship {
     background-color: white;
     width: 350px;
-    height: 380px;
+    height: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#main-free-ship > p{
+    padding-left: 20px;
+    font-size: 14px;
+}
+#main-free-ship-title {
+    font-size: 19px!important;
+    font-weight: bold;
+}
+#main-product-ad {
+    background-color: white;
+    width: 350px;
+    height: 210px;
     padding-top: 15px;
     padding-bottom: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+#main-product-ad > img {
+    height: 125px;
+    width: 185px;
+    align-self: center;
+}
+#main-product-ad > p {
+    font-size: 13px;
+    text-align: center;
+}
+#main-ad-rating-button-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#main-product-ad-rating {
+    display: flex;
+    align-items: center;
+}
+#main-product-ad-rating > i {
+    color: rgb(231, 153, 8);
+    font-size: 14px;
+}
+#main-product-ad-rating > p {
+    font-size: 12px;
+    padding-left: 7px;
+}
+#main-ad-rating-button-box > button {
+    padding: 3px 10px 3px 10px;
+    border: 1px solid rgb(158, 134, 0);
+    color: black;
+    background: linear-gradient(to top, rgb(209, 161, 1), rgb(255, 209, 58), rgb(240, 196, 114));
+    border-radius: 3px;
+}
+#main-ad-rating-button-box > button:hover {
+    cursor: pointer;
+    background: linear-gradient(to top, rgb(209, 161, 1), rgb(228, 182, 31), rgb(248, 190, 83));
 }
