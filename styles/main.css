@@ -1,8 +1,5 @@
 main {
-
-}
-#main-image {
-    
+    height: 800px;
 }
 #main-image-top {
     display: flex;
@@ -242,3 +239,5 @@ main {
     cursor: pointer;
     background: linear-gradient(to top, rgb(209, 161, 1), rgb(228, 182, 31), rgb(248, 190, 83));
 }
+
+
