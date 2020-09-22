@@ -7,7 +7,7 @@ It is designed to display the desktop home page on a standard 1080p monitor.
 Only built using HTML5 and vanilla CSS3.
 
 
-## 📨 [Live Demo](https://teratext.vercel.app/)
+## 📨 [Live Demo](https://amazon-copy-cat.vercel.app/)
 
 ## ✏️ Author
 
