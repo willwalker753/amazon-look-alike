@@ -9,6 +9,8 @@ Only built using HTML5 and vanilla CSS3.
 
 ## 📨 [Live Demo](https://amazon-copy-cat.vercel.app/)
 
+![amazon logo](https://github.com/willwalker753/amazon-look-alike/blob/master/pictures/amazon-logo-meta.jpg?raw=true =250x)
+
 ## ✏️ Author
 
 #### &nbsp;&nbsp;&nbsp;&nbsp;Will
